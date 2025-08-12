@@ -1,0 +1,12 @@
+systemd-analyze verify /etc/systemd/system/mysqld.service
+
+systemctl cat mysqld
+
+
+
+mklabel gpt
+
+mkpart primary xfs 20%
+
+print
+
